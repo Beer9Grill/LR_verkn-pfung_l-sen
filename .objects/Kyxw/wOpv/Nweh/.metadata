@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome VWFSAG - PartnerSysteme",
+  "Type": "Screen",
+  "Id": "NwehpICxa0ezMPl-nHb77A",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/NwehpICxa0ezMPl-nHb77A",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/wOpvHgSBNEG3Yu4S5-0HEQ",
+  "Created": "2026-06-19T12:11:51.2405834Z",
+  "Updated": "2026-06-19T12:11:51.2405834Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

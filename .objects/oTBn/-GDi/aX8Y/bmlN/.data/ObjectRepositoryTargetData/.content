@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I76mU4ANiEyIUOeAhoPsyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="122, 122, 155, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd ctrlid='1136' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="57d00d13-4a33-46bd-88b2-5e58146a1b63" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Kriterien Fahrzeug' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="20, 125, 98, 13" ElementType="Text" FuzzySelectorArgument="&lt;wnd ctrlid='1255' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' title='Amtl.Kennz. (%):' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Amtl.Kennz. (%):' /&gt;" Guid="b6097fc9-029e-4aab-a9c4-db4e9aebb8dd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="95e7f90b33cbad05353b4950a465a578.jpg" xmlns="">0gCIY9nexbU-JOZUhnQnxSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

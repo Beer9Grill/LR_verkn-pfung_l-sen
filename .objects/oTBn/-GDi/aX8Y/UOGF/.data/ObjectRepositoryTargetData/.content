@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N3cjRRnBJEiSNOAne0G0HA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="128, 413, 85, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='60' title='D&amp;amp;etail' /&gt;" Guid="9ddaeb6f-cd36-4d3b-9e78-0b9a6e150772" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='50792  CROSS Service - 50792 KD (50792) Gelder &amp;amp; Sorg GmbH &amp;amp; Co.*' /&gt;&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="62caf511f51c132924ab8eae2e99fb6e.jpg" xmlns="">0fSYFxkoxuUKpbxvhGLYTlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yj9vlEHALUiI5m5nPcE-mg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="his.vwfs.com/leasing" CVScreenId="1c268fcb-3b98-4072-939c-11a2b5c0205f" CvType="AnyWordGroup" DesignTimeRectangle="2155, 631, 356, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='11' tag='TD' /&gt;" Guid="d51e91b8-7f85-4e7d-909c-8f655bf9bb30" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1945, 631, 210, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname=' amtl. Kennzeichen ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='amtl. Kennzeichen' /&gt;" Guid="f4bbe6ac-ee59-4009-b467-7ceb9a751c16" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a5086c7ccdb290eb1b2e49c0f1d429a3.jpg" xmlns="">0jAeI9RMeZkCsSZyeXBdn_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

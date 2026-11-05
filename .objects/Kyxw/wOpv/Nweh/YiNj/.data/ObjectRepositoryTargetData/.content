@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eCze6Bt21k-1RXWXLLyH2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="partner.vwfs.com/Private/UIController/VAPPrivatePortalFC.aspx" DesignTimeRectangle="645, 373, 1288, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='MainContent' tag='FRAME' /&gt;&lt;webctrl id='modalAgbTitle' tag='H3' aaname='Diese Richtlinie muss vor Benutzung akzeptiert werden' /&gt;" Guid="657ae8cc-75ae-4f79-a6af-05db12aa5b09" ScopeSelectorArgument="&lt;html app='chrome.exe' title='VWFSAG - PartnerSysteme 3.5.26194.1' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6c454b01e8e10024cde28b606094c259.jpg" xmlns="">0HUfbvBzJB06jGg9TehncvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xMCdsAv2Vku48u3oDybuPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="his.vwfs.com/leasing" CVScreenId="b28e0a3a-efa6-4199-b4bf-5b00841c9a26" CvTextArea="438, 785, 40, 11" CvTextArgument="P908742" CvType="Text" DesignTimeRectangle="440, 784, 37, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='subspan' tag='SPAN' /&gt;" Guid="df25ce28-763f-497b-84fc-88aa1fc643ae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b28e0a3a-efa6-4199-b4bf-5b00841c9a26" CvTextArea="438, 739, 41, 14" CvTextArgument="Vertrag" CvType="Text" DesignTimeRectangle="440, 738, 38, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Vertrag' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' class='ag-header-cell-text' matching:class='fuzzy' fuzzylevel:class='0.0' tag='SPAN' type='' innertext='Vertrag' check:innerText='Vertrag' /&gt;" Guid="423280e3-8f2c-4e78-9404-2ec805abdd7c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="193de291a8f6fa2c9e9fe0ca632cb88a.jpg" xmlns="">0La1ymlkHQk6xr_3Duj82Dw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

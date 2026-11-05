@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rqyV5Q6FHk-PDUCxTVGZcg" Reference="lb_UAc5--UusZP3tb2HM1Q/a8aJiPHixUqgFN_fQlt76w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 3, 1020, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl role='title bar' text='*Hinweis Liste*' /&gt;" Guid="eee8c6f1-5b63-4e22-9ea5-4dc573355554" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Hinweis Liste' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="3c4742b81926bc6344bff54bba7b67fb.jpg" xmlns="">0MHoe_ZTfoEmonqVHFNYYGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

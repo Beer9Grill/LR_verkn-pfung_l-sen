@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uVFBy2cNeE20-TqHCufQ0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="70, 64, 299, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='65535' title='Bitte Kraftstoff/Energieträger für den Verbrauch angeben.' /&gt;" Guid="1296bf00-0748-41bb-97e2-6fe6dc9cf40b" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fehler' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="74fa3d5b8bb6ea063f12b68b3a311d7a.jpg" xmlns="">0LfF9vF518kCFg4dZMlp4iA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

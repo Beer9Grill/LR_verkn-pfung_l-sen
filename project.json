@@ -1,0 +1,61 @@
+{
+  "name": "LR_Verknuepfung_loesen",
+  "projectId": "fe43c132-3b75-4ff0-9f17-d0a783b022d4",
+  "description": "Die Verknüpfung Kunde-Fahrzeug nach der Leasingsende lösen.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Avemo_library": "[1.2.57]",
+    "Portable.BouncyCastle": "[1.9.0]",
+    "UiPath.MicrosoftOffice365.Activities": "[3.11.11]",
+    "UiPath.System.Activities": "[26.6.2]",
+    "UiPath.WebAPI.Activities": "[2.5.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "26.0.191.0",
+  "projectVersion": "1.0.25",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "ddb8903c-ba0f-48d4-b2ab-102b2a0bf938",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

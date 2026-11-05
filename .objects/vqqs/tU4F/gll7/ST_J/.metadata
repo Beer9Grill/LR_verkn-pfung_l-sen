@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Amtl.Kennz. (%)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ST_JRCgscUG0sy2U7tv3VQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/ST_JRCgscUG0sy2U7tv3VQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/gll7t5VkdE6Jvco7RZKE3w",
+  "Created": "2026-06-19T14:07:31.7824077Z",
+  "Updated": "2026-06-19T14:07:31.7824077Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

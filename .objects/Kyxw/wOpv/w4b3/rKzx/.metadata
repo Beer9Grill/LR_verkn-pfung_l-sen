@@ -1,0 +1,14 @@
+﻿{
+  "Name": "bis",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "rKzxIbtDjU6Hqohqcn0zsw",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/rKzxIbtDjU6Hqohqcn0zsw",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/w4b3gNOV7EC_3lAwD7b_uw",
+  "Created": "2026-09-28T14:42:12.8012208Z",
+  "Updated": "2026-09-28T14:42:12.8012208Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

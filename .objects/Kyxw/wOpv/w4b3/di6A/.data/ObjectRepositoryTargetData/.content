@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ROYEPGWYG0WOXVlOCuM49Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Home/Start" DesignTimeRectangle="105, 210, 144, 35" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='MainReturnProtocol' tag='A' /&gt;" Guid="6b7f5fb8-07b5-4699-b750-12a1f7c556da" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LeasingRücknahme Online 2.0.26167.3' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="eae5fdaf45f1d2aeeb2823faeff0fb87.jpg" xmlns="">0U7z0Co2W-keYv5nakPPpBA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

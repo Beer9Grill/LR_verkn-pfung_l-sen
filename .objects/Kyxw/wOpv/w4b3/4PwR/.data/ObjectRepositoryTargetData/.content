@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wxkr9GFkFkO8VvteSPY8bw" Reference="lb_UAc5--UusZP3tb2HM1Q/4PwRQZl2rkqT9w2LEpYFpA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Storage/Completed" DesignTimeRectangle="409, 416, 219, 29" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='ToDate' tag='INPUT' type='text' class='column datepicker omega remove-bottom hasDatepicker' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0e365035-ff61-4202-a72b-458ae682ecd5" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LeasingRücknahme Online 2.0.26250.1' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="373, 411, 26, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;bis: &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' tag='LABEL' type='' class='label-inline column omega remove-bottom' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='bis:' /&gt;" Guid="a2086ffa-0c6c-4f41-b2ba-38788d2ca75e" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6ffec0b68333c1841dd3bcef7a359f05.jpg" xmlns="">0JWmUx2z3Wk-lSGcJSC6XpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

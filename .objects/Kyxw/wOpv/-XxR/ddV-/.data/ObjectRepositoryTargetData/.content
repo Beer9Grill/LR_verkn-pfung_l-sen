@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v37GGr7Qv0qA5st6jU7B2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="his.vwfs.com/leasing" DesignTimeRectangle="294, 553, 114, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Alle entfernen' class='c-link__effect' tag='SPAN' /&gt;" Guid="af925bf1-3029-44d4-a37f-35acd7190268" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="30c8ca1178ced5add67098dc16720d80.jpg" xmlns="">0BYvi3nSf_UiSc8WO6iLQ3Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

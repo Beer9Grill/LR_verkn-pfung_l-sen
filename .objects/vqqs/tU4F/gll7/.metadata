@@ -1,0 +1,13 @@
+﻿{
+  "Name": "CROSS Sales",
+  "Type": "Screen",
+  "Id": "gll7t5VkdE6Jvco7RZKE3w",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/gll7t5VkdE6Jvco7RZKE3w",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/tU4F8K33iUyEQ741cOzMCw",
+  "Created": "2026-06-19T14:06:22.1403183Z",
+  "Updated": "2026-06-19T14:06:22.1403183Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

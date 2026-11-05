@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I9AYHK9KOkWtoStx7Ed68A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Storage/Completed" DesignTimeRectangle="143, 416, 220, 29" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='FromDate' tag='INPUT' type='text' class='column datepicker omega remove-bottom hasDatepicker' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ae4e3238-b6b4-49ea-9250-a3a4c804101b" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LeasingRücknahme Online 2.0.26167.3' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="102, 411, 31, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='label-inline column omega remove-bottom' matching:class='fuzzy' fuzzylevel:class='0.0' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;von: &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='von:' /&gt;" Guid="79bc931b-50f0-4738-bef4-269bcec76f8a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b6b41ac020a7fd8f7d62d6ec558a801b.jpg" xmlns="">0-xrYeviFPUS77hiUwj7akg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

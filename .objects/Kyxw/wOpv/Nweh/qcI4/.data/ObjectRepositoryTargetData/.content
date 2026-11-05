@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DlXmPVLDHECqKZf2ZQWrQQ" Reference="lb_UAc5--UusZP3tb2HM1Q/qcI4D6Pk20GbxLqziXaPmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Search" DesignTimeRectangle="1009, 727, 580, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='Overdue_Popup_Title' tag='H4' aaname='Überfällige Vorgänge' /&gt;" Guid="0acdb039-13ca-4c29-9129-096cc649b69a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LeasingRücknahme Online*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="626bb0c8ca9704d1574e7f698783f3df.jpg" xmlns="">0fu3jgRCSz0itdANyBQmZ3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

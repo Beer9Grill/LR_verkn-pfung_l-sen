@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Wollen Sie wirklich die…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "iPfRCxnh1E69C91Yk_BAdQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/iPfRCxnh1E69C91Yk_BAdQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-10-16T11:48:28.7990922Z",
+  "Updated": "2026-10-16T11:48:28.7990922Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

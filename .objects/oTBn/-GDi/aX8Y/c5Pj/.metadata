@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Der GW-Modellcode 'NX56…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "c5PjRd2x_0qx1ydyHESp2Q",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/c5PjRd2x_0qx1ydyHESp2Q",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-10-30T11:31:58.6419769Z",
+  "Updated": "2026-10-30T11:31:58.6419769Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

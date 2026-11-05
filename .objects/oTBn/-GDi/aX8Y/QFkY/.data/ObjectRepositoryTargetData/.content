@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="x_2L5aDAQkO75WyMABe4qw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="20, 629, 72, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Speichern' /&gt;" Guid="e45ddad5-1fc1-467e-bbfd-5226194eb9b9" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug HAS-FZ 500 - Audi SQ5 Sportback TFSI 270 kW S tronic' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c576d9e8d5086ace3b1cf3faaffaeac3.jpg" xmlns="">0FvBkz_DgOUuV8V4pv6Anmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

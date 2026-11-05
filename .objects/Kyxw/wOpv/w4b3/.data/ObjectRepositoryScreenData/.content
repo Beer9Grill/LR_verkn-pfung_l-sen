@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="iPyakmcKG0edGCHAab0HkA" Reference="lb_UAc5--UusZP3tb2HM1Q/w4b3gNOV7EC_3lAwD7b_uw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1912, -8, 2576, 1408" BrowserType="Chrome" ContentHash="uAY3bXjNbUSeF587PGBGBg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVDhPndNrS5NxGMfxH1GpJaaLepCUPeihaWGzkEqi0mlpprbUdtDpDurY3Gybh3uzdvCAp2GtrCCIqLf5jZsbXQ6J8A18uP7X9/pLzgQaSaGxBeRaQm4DeTNo4h2azCJ/DgUKKLSGZjZQeBNFtlB0B8WKSK/mKSOLFuKpRPIoWIlsW4iG4vwfkjsG2UJ6OYeGYidHNBDhEBk2kbdoJGnt5M3fO1lBvvdoqgJRfxi9MJEoZ18nqB83qBtPU+fL0ODP0hDMcSGYp356FVt4g+rQ6tFJ9HwG9c2ivjBXfBkc+S88ye7TVfhG7/p3nHu/6d/+iWPzB/3FXzQbJetJ5iRmHfVOc92XpjWyRuvcBvdSu9hTu7TMb9GS2KEpvIY9XeJB7it3Mp+5aZRoNj5xNVG0JlFPkGveJdqi63Qkt+lI7dKe3KElvol9oUjT7Crtyx+4my5xe/kjt4wSbSv73EjtWYtVtx91BzjTN8vlsSS20QSX3Is0uBaxeZa5OJGhMZSjcbqALZDFFsxzfipbrqOnk6jLz6meEDUDEaoHo5wbjlE1HKfKOU/1aJJa9xK1HoMaj0GV1+C0mfcgsR5PcIDIEUC9IfTMXGy5jgYPElfciZlYj7wci5h1DhP/49jU6eHkyALSQxfqdJ8c0f0xLKRiErOOI3gUOTz78gf8A/WY30ydx/PaAAAAAElFTkSuQmCC" Reference="lb_UAc5--UusZP3tb2HM1Q/w4b3gNOV7EC_3lAwD7b_uw" Selector="&lt;html app='chrome.exe' title='LeasingRücknahme Online*' /&gt;" Url="https://lro.vwfs.com/Home/Start" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2ce9ba6f05b538dd286e65cd31ed663.jpg" xmlns="">0oMatH_bhhkOPYtBdrexxsA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

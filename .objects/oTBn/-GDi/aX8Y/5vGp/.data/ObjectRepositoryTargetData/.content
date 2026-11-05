@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KtnWlMvMS0GlNiBVG0T0Tw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="180, 268, 140, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1136' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="45dc1e5c-14b6-4c6a-90a7-5a0151b7d252" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug HAS-FZ 500 - Audi SQ5 Sportback TFSI 270 kW S tronic' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="36, 272, 141, 13" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1255' title='Amtl.Kennz.:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Amtl.Kennz.:' /&gt;" Guid="a802e899-6ae8-4947-876f-82399e3f1acd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="722aa30817df2ec483b5fbad4901eb67.jpg" xmlns="">0NGNUg9WlnESDdVjscrue7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

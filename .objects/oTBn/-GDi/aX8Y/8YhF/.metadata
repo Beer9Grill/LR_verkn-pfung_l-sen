@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Kriterien Fahrzeug",
+  "Type": "Element",
+  "Id": "8YhF5nmSTU2fydIrYrW0pg",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/8YhF5nmSTU2fydIrYrW0pg",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-10-30T11:26:48.2116449Z",
+  "Updated": "2026-10-30T11:26:48.2116449Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

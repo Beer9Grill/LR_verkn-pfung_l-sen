@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Speichern unter",
+  "Type": "Element",
+  "Id": "TF6NlpULK0mJ5fDQrc0DXw",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/TF6NlpULK0mJ5fDQrc0DXw",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/w4b3gNOV7EC_3lAwD7b_uw",
+  "Created": "2026-07-27T12:50:47.8128513Z",
+  "Updated": "2026-07-27T12:50:47.8128513Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

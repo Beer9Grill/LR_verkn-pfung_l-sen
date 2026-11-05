@@ -1,0 +1,14 @@
+﻿{
+  "Name": "LeasingRücknahme Online",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "oMx13L1Zz0G4O69bT90HAQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/oMx13L1Zz0G4O69bT90HAQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/NwehpICxa0ezMPl-nHb77A",
+  "Created": "2026-06-19T12:13:13.0533531Z",
+  "Updated": "2026-06-19T12:13:13.0533531Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E0P7wn5zAEumZNYxYr1rQA" Reference="lb_UAc5--UusZP3tb2HM1Q/DeHqkamBAESIym4-ORymTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Storage/Completed" DesignTimeRectangle="2367, 416, 158, 29" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' visibleinnertext=' Aktualisieren' /&gt;" Guid="74553adb-d8a6-4884-88d0-d8e28c3c1b3f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LeasingRücknahme Online*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="adfa73e164e224d8e0715d8e8a0552c7.jpg" xmlns="">0mGXy-lU_oEeDjLoMrgIBHw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

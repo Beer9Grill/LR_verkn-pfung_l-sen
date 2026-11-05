@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="efrb_zdhV0i8b0fQYqFPtg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1168" FilePath="C:\cross2\bin\nge.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH7SURBVFhHxZc9SwNBEIZT+BMERUshaK2ifdDe6A8I+QF+9VGw1RS2SWUX7axipyBJCgsFD/wqlKSwsAiHhYXFyrMwy9550Vzua2DJZXZn3mdnJnDJtdod9fj0nMlCO8eDbe1WW69ut2d8juNon+u6nrPY11tXvR4c6fVx3jT+oBhy2rnRNgAEzObn1EphVa2vbaipiWntw/iOn/3qYVX7vvuuui+W1EN5Swv3jmvqejyvn08bZ/oscXwi2Gxe/PIZAL7gJNCmFVKCIBdI7LZQVO8nDXMe+7xztJ/zkgthDHCBl8oYgHqtrsqlsieZbQJAgqWFZdW/aqmb+YL/mDaqwjn/haQC7ElbDIBNF2TSEsSpAv2m5H5jHl52K/oZQeKIkUpyCWkBeQwApGwMMvZkDrAgAGaC8vNpDzCVtW+N7VX2tc8AsAnp9uaOOQiUPYTQA0Agvb8cm9QgtINbd2YW9QxgMsDkIpYWk19aIlCeXwHUUmopt38IZVh5RpQ54NYsERd4yUMsIDIDts8DkLYxL5kB0EKqlgmAzE8mACKeCYAtnjqAXzxVgCDx1AAGiacC8Jd44gD/iScKMIx4YgDDiicCEEY8doCw4rECjCIeG8Co4rEARBGPDBBVPBJAHOKskQDiEmeFBohTnBUKgBdIAuJcvFVrgKz/nv8AvOv722IABV8AAAAASUVORK5CYII=" Selector="&lt;wnd app='nge.exe' cls='AfxMDIFrame140u' title='CROSS Sales*' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="3d26deaf3168bdb6455461a4729d4574.jpg" xmlns="">0Fv6h45sWq0eN9A_3W9Twmw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

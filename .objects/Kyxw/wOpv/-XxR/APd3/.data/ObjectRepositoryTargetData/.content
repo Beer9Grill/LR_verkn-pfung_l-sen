@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dzmiRgPVukea_fwrhfchkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="his.vwfs.com/leasing" CVScreenId="680d1e1d-5baa-4a65-a20d-d4fd53362d45" CvElementArea="801, 443, 238, 33" CvType="InputBox" DesignTimeRectangle="803, 444, 235, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="660b7169-0285-4a9f-8ac9-8d0b1d04d187" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1058, 444, 184, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' tag='P' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Beispiel: *' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Beispiel: BS-BS123' /&gt;" Guid="d733cb9d-594a-40db-9659-f361fefa6461" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="75203533554d1908de23bce65bbd797e.jpg" xmlns="">0UDkkdnl2LEWqsn8AdcrZ1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

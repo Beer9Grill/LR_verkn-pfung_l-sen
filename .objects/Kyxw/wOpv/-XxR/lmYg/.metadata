@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Beispiel BS-BS123(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "lmYgMxcL4U6fHC5rIu94IQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/lmYgMxcL4U6fHC5rIu94IQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/-XxRaGMSYki3Mo2KACEJ6Q",
+  "Created": "2026-07-22T07:29:06.759668Z",
+  "Updated": "2026-07-22T07:29:06.759668Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

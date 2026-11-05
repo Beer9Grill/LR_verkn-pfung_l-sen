@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FYXoFHzGZkGhdzwIdEXy5A" Reference="lb_UAc5--UusZP3tb2HM1Q/c5ALE4W98Emga0q6X7_pag" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="partner.vwfs.com/Private/UIController/VAPPrivatePortalFC.aspx" DesignTimeRectangle="98, 207, 94, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='_ANWENDUNGEN' tag='A' aaname='Anwendungen' /&gt;" Guid="eb1cac69-392a-42d7-8a76-bc71c5889510" ScopeSelectorArgument="&lt;html app='chrome.exe' title='VWFSAG - PartnerSysteme 3.5.26258.3' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e6f97e45e47039465cabad78f0171921.jpg" xmlns="">0jLfnAvFRYkq3m2xFznpoVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

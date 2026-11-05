@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hdk3qIrZQEidBFKVocNohw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="his.vwfs.com/leasing" DesignTimeRectangle="2061, 245, 484, 600" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='document' tag='DIV' innertext='Leasing Vertrag Nr*' /&gt;" Guid="37078f68-fdcc-4ead-a91e-43670d962e06" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="536f6d8049854e0b1960cd21e69739db.jpg" xmlns="">0iZ7NuvJ23UyqlAEsWhDQjQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

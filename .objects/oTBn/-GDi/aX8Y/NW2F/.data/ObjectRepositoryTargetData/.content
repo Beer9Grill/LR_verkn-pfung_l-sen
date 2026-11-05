@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LrPHIVInSEa3EuwXwKg20g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="125, 510, 158, 21" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' /&gt;&lt;wnd ctrlid='1073' /&gt;&lt;ctrl name='Treibstoff' role='combo box' /&gt;" Guid="f8dbd4e7-db90-4be9-b1d4-2e5cf08b9c45" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug DA-C 3994 - Skoda Octavia Combi RS' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="703609a2a46c2a2bbf608ea3155bf704.jpg" xmlns="">0dGKJwFrC6U6JwGvQQWaMgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

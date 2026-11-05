@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Bitte KraftstoffEnergi…(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "mC1BoYxb2U6rjtALXzGHFQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/mC1BoYxb2U6rjtALXzGHFQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-09-21T12:55:37.6725677Z",
+  "Updated": "2026-09-21T12:55:37.6725677Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

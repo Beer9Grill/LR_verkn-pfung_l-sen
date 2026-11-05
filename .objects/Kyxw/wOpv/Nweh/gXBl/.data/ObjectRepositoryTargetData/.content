@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k_sdnsxyzEKUToFxDhm1Bg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="partner.vwfs.com/Private/UIController/VAPPrivatePortalFC.aspx" DesignTimeRectangle="316, 342, 115, 27" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='verifyEmail' tag='INPUT' /&gt;" Guid="2c097d59-434b-48f8-a8f5-f1c7f39ccdd8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='VWFSAG - PartnerSysteme 3.5.26258.3' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="30470f96a7989173b4a3881efc5265ae.jpg" xmlns="">0i3H5NWpav0yaJAcCccl4LA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

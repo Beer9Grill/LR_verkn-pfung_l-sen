@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oSwhsTxpFkeZ8Nij4rY8VQ" Reference="lb_UAc5--UusZP3tb2HM1Q/oMx13L1Zz0G4O69bT90HAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="partner.vwfs.com/Private/UIController/VAPPrivatePortalFC.aspx" DesignTimeRectangle="64, 231, 162, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='A' aaname='LeasingRücknahme Online' /&gt;" Guid="dd416f64-24d3-4f16-a358-f9b69bd2d15f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='VWFSAG - PartnerSysteme 3.5.26258.3' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d13963928764b80fbd5d2aa2b3b242b8.jpg" xmlns="">077i_ha_Fz0qfRhX-G1eCow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

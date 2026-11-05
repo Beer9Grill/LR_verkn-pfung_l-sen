@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GVp96gA74EinGBs4hyk4Yw" Reference="lb_UAc5--UusZP3tb2HM1Q/jQpyFTlSbkKB_E0Eou_c4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2c1eedd2-0a01-45be-8b27-877e405d03b5" DesignTimeRectangle="460, 101, 85, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' /&gt;&lt;wnd aaname='Headersteuerelement' cls='SysHeader32' /&gt;&lt;ctrl automationid='Header' /&gt;&lt;ctrl automationid='HeaderItem 4' name='Amtl.Kennz.' /&gt;" Guid="245c3512-51c3-4da8-90ee-3e114297db13" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='*CROSS Service*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e2674a63a2d74cb2bb8fe7a774101e5b.jpg" xmlns="">0ByeMAvyAcUWYNHis84hFTA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

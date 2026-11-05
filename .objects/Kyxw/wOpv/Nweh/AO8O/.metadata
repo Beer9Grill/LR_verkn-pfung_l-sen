@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Abbrechen",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "AO8O4QbpDUWx-ZkBImk0sQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/AO8O4QbpDUWx-ZkBImk0sQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/NwehpICxa0ezMPl-nHb77A",
+  "Created": "2026-06-19T12:16:25.9845Z",
+  "Updated": "2026-06-19T12:16:25.9845Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

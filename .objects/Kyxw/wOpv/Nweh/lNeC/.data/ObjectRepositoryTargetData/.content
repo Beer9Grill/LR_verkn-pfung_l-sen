@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z6Vf5g8E_0ygibC_4_3XPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="partner.vwfs.com/Private/UIController/VAPPrivatePortalFC.aspx" DesignTimeRectangle="18, 293, 1018, 38" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='cuit-email-acc' tag='DIV' /&gt;" Guid="2d90772c-6c78-4c95-8c29-ee0ea44f4623" ScopeSelectorArgument="&lt;html app='chrome.exe' title='VWFSAG - PartnerSysteme 3.5.26258.3' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f8e58eccb04f3eea2052db1b0092c77c.jpg" xmlns="">0DjkTSpLxT0O_jaOMY3J2FQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

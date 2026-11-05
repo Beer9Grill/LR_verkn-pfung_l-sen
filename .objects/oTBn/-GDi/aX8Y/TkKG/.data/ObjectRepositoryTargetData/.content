@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="68EbfkvdJk6gfg5tcXJPOQ" Reference="lb_UAc5--UusZP3tb2HM1Q/TkKGRLOEnE2x0VOh8X63cQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="180, 268, 140, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1136' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="43fc9aa1-97a1-4ba3-bcc7-faf4772a4f15" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="36, 272, 141, 13" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1255' title='Amtl.Kennz.:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Amtl.Kennz.:' /&gt;" Guid="de8dd355-6f10-48f1-89d4-d25fd6277088" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2cc8a4e3f80ecf43e83a9d1e22a2cb5.jpg" xmlns="">0LflEdv3xQUiduI0yJlf8yA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

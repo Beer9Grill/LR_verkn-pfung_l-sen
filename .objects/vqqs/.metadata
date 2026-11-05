@@ -1,0 +1,12 @@
+﻿{
+  "Name": "CROSS Sales",
+  "Type": "App",
+  "Id": "vqqsLN-L702AQWv0DVmPWg",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/vqqsLN-L702AQWv0DVmPWg",
+  "Created": "2026-06-19T14:06:22.1137813Z",
+  "Updated": "2026-06-19T14:06:22.1137813Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

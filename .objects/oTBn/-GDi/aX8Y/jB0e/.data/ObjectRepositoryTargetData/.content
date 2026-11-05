@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="__jN2nOf9UepQ5pYWn_Jeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="22, 70, 1095, 17" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1553' title='List1' /&gt;&lt;ctrl name='Migrationskunde**' role='list item' /&gt;" Guid="819f9a74-1dac-41b9-b421-99476d18cb41" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Liste von Geschäftspartnern' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="3afe81ac636185a81eed9cfeeaa2741e.jpg" xmlns="">0OX-McDwMKUKNJjl8jaO0PA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

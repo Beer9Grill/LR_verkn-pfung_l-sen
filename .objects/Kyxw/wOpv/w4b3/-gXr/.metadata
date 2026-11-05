@@ -1,0 +1,14 @@
+﻿{
+  "Name": "&Speichern",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "-gXr9uFRHEaVGLEFkGpLFw",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/-gXr9uFRHEaVGLEFkGpLFw",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/w4b3gNOV7EC_3lAwD7b_uw",
+  "Created": "2026-07-27T12:51:13.0824109Z",
+  "Updated": "2026-07-27T12:51:13.0824109Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

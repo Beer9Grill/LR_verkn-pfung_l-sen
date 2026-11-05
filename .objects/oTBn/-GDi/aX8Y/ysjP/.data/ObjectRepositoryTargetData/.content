@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WkPEZglQYUGfkJNVsMY9vA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="741be354-2452-47f0-9245-fff98fc39451" CvElementArea="719, 136, 21, 22" CvTextArea="721, 138, 16, 17" CvTextArgument="X" CvType="Button" DesignTimeRectangle="719, 136, 21, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' /&gt;&lt;wnd ctrlid='1016' /&gt;" Guid="eebec6b0-f9e5-47e1-a509-97fe030d6cef" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug BA-P 1016 - Audi A4 Avant S line 40 TFSI 150(204) kW(PS*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="741be354-2452-47f0-9245-fff98fc39451" CvTextArea="34, 141, 36, 12" CvTextArgument="Kunde:" CvType="Text" DesignTimeRectangle="36, 141, 141, 13" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1274' title='Kunde:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Kunde:' /&gt;" Guid="67046957-d89e-49ee-853b-1117384e73bd" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="532, 46, 70, 18" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='12320' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;ctrl name='WS-Termine' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='WS-Termine' /&gt;" Guid="0d933007-2df9-429b-a89d-67654f3bb5aa" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2127db37a0605c86361cd735ee1c8727.jpg" xmlns="">0VoIh8tJPXEKZ7fllQ_tlmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

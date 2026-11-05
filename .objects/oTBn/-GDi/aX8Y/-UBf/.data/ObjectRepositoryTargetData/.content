@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V9oepXnpIkGRawj-jEwuEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="741be354-2452-47f0-9245-fff98fc39451" CvElementArea="671, 136, 22, 23" CvTextArea="674, 142, 15, 13" CvTextArgument="..." CvType="Button" DesignTimeRectangle="671, 136, 21, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' /&gt;&lt;wnd ctrlid='1011' /&gt;" Guid="c235062b-f47f-46bf-895e-0e9498f208df" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug BA-P 1016 - Audi A4 Avant S line 40 TFSI 150(204) kW(PS*' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="36, 141, 141, 13" ElementType="Text" FuzzySelectorArgument="&lt;wnd cls='#32770' title='EX_PropertySheet' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='1274' title='Kunde:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Kunde:' /&gt;" Guid="d4f9e638-ca96-40a7-b475-b697c8c3cc9b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad38d191643666b5f816740e86021f83.jpg" xmlns="">0nI4fzC3kq0Cpx7ZiLu6Nbg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

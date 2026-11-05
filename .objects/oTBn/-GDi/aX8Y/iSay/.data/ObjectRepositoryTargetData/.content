@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p3MBT6uN006_DD24jimpaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="98, 629, 72, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='2' title='&amp;amp;Abbrechen' /&gt;" Guid="3fcbb8fd-b6e8-4668-94b5-969fa3967b17" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug CO-VP 11 - Audi S4 Avant TDI 251(341) kW(PS) tiptronic' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d3fb039dff0f42230c461fca3d5d7d64.jpg" xmlns="">0Kg7HcD9KTkCv-uo4KqGZsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

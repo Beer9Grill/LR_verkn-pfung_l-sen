@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_WR89UKaLUeaeo9VTDQQaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Storage/Completed" DesignTimeRectangle="9, 38, 1482, 854" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Speichern unter' role='dialog' /&gt;" Guid="4e74b36f-4ae3-4307-9b7b-b3fa0d194bc7" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Speichern unter' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a8895252bd49c459069e17609a0f096c.jpg" xmlns="">07vKt7tg_906gm_Wmh40Dog</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

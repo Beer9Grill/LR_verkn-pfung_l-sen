@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Rückgabe Leasing",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "di6Al8t7OEWzX6IL7UySxg",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/di6Al8t7OEWzX6IL7UySxg",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/w4b3gNOV7EC_3lAwD7b_uw",
+  "Created": "2026-06-19T13:00:59.5782127Z",
+  "Updated": "2026-06-19T13:00:59.5782127Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

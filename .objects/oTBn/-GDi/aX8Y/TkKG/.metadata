@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Amtl.Kennz.(3)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "TkKGRLOEnE2x0VOh8X63cQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/TkKGRLOEnE2x0VOh8X63cQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-06-25T13:21:42.7624929Z",
+  "Updated": "2026-06-25T13:21:42.7624929Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

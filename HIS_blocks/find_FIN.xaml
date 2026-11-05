@@ -1,0 +1,356 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="find_FIN" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_Kennzeichen" Type="InArgument(x:String)" />
+    <x:Property Name="out_FIN" Type="OutArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>find_FIN_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="find_FIN" sap:VirtualizedContainerService.HintSize="1066.8,3505.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome H.I.S." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="523.2,3482.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" IsIncognito="True" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="521.6,3288.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="kennZeichen_HIS" />
+              <Variable x:TypeArguments="x:Boolean" Name="vorgang_isValid" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope (Checkt if the right Contrakt was found)" sap:VirtualizedContainerService.HintSize="488,2901.6" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:03">
+              <ui:RetryScope.ActivityBody>
+                <ActivityAction>
+                  <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="486.4,2720" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Assign sap:VirtualizedContainerService.HintSize="452.8,174.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[vorgang_isValid]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Alle entfernen'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452.8,193.6" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" ContentHash="v37GGr7Qv0qA5st6jU7B2g" DesignTimeRectangle="294, 553, 114, 22" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Alle entfernen' class='c-link__effect' tag='SPAN' /&gt;" Guid="af925bf1-3029-44d4-a37f-35acd7190268" InformativeScreenshot="30c8ca1178ced5add67098dc16720d80.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/ddV-Afg9P0S3A336S6bHXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="insert kennzeichen" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452.8,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Text="[in_Kennzeichen]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" CVScreenId="680d1e1d-5baa-4a65-a20d-d4fd53362d45" ContentHash="dzmiRgPVukea_fwrhfchkg" CvElementArea="801, 443, 238, 33" CvType="InputBox" DesignTimeRectangle="803, 444, 235, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="660b7169-0285-4a9f-8ac9-8d0b1d04d187" InformativeScreenshot="75203533554d1908de23bce65bbd797e.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/APd3QCU3aEq16dMfJj-GUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1058, 444, 184, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' tag='P' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Beispiel: *' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Beispiel: BS-BS123' /&gt;" Guid="d733cb9d-594a-40db-9659-f361fefa6461" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Beispiel: BS-BS123'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452.8,328.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5">
+                      <uix:NKeyboardShortcuts.Target>
+                        <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" CVScreenId="cd5f5f40-d235-4c50-a12a-572fa7c97715" ContentHash="DWZsEMzSJ0WJrxsTipGlNw" CvElementArea="802, 387, 238, 32" CvType="InputBox" DesignTimeRectangle="803, 388, 235, 30" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="d9017889-335b-40e5-830f-ea374a854096" InformativeScreenshot="3cb53be08bd11068d12d0236ec5a08c9.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/lmYgMxcL4U6fHC5rIu94IQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1058, 388, 184, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='P' class='' aaname='Beispiel:*' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Beispiel:*' /&gt;" Guid="3468e7fc-ca03-4863-9473-14e274a7bceb" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NKeyboardShortcuts.Target>
+                    </uix:NKeyboardShortcuts>
+                    <uix:NCheckState DisplayName="Check App State 'M-NO1725E'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452.8,744" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Timeout="10" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[in_Kennzeichen + &quot; was found&quot;]" />
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,173.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Throw Exception="[new Exception(&quot;Akt &quot;+in_Kennzeichen +&quot; was not found&quot;)]" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" CVScreenId="00473cf8-22ca-4162-a076-f566d0ad914e" ContentHash="CF_y5rhLbUOaSvFGd-y5wg" CvTextArea="1519, 810, 72, 13" CvTextArgument="M-NO1725E" CvType="Text" DesignTimeRectangle="1499, 793, 163, 51" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+in_Kennzeichen+&quot;' aria-role='gridcell' tag='DIV' /&gt;&quot;]" Guid="20e98899-806c-4168-8d28-2316d95d9bda" InformativeScreenshot="a8e0b1002ee700a15d36f35cdf9a53d1.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/fA1_ll1u-0KqATMELjT3Sw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1522, 753, 117, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='amtl. Kennzeichen' class='ag-header-cell-text' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='amtl. Kennzeichen' /&gt;" Guid="a205acb8-9f19-4870-a772-e63884c8fb83" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Open Vertragsinfo" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452.8,193.6" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" CVScreenId="b28e0a3a-efa6-4199-b4bf-5b00841c9a26" ContentHash="xMCdsAv2Vku48u3oDybuPQ" CvTextArea="438, 785, 40, 11" CvTextArgument="P908742" CvType="Text" DesignTimeRectangle="440, 784, 37, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='subspan' tag='SPAN' /&gt;" Guid="df25ce28-763f-497b-84fc-88aa1fc643ae" InformativeScreenshot="193de291a8f6fa2c9e9fe0ca632cb88a.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/5Iv7Cd0CFUWWOKpuJdikUg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="b28e0a3a-efa6-4199-b4bf-5b00841c9a26" CvTextArea="438, 739, 41, 14" CvTextArgument="Vertrag" CvType="Text" DesignTimeRectangle="440, 738, 38, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Vertrag' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' class='ag-header-cell-text' matching:class='fuzzy' fuzzylevel:class='0.0' tag='SPAN' type='' innertext='Vertrag' check:innerText='Vertrag' /&gt;" Guid="423280e3-8f2c-4e78-9404-2ec805abdd7c" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NCheckState DisplayName="Wait Vertrag opened" EnableIfExists="False" EnableIfNotExists="False" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452.8,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Timeout="15" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" ContentHash="hdk3qIrZQEidBFKVocNohw" DesignTimeRectangle="2061, 245, 484, 600" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='document' tag='DIV' innertext='Leasing Vertrag Nr*' /&gt;" Guid="37078f68-fdcc-4ead-a91e-43670d962e06" InformativeScreenshot="536f6d8049854e0b1960cd21e69739db.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/Ksl7GXuA6Ey6vUjHbb3Xqg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                      </uix:NCheckState.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NCheckState>
+                    <uix:NGetText DisplayName="Get Text 'amtl. Kennzeichen'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452.8,142.4" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" TextString="[kennZeichen_HIS]" Version="V5">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" CVScreenId="1c268fcb-3b98-4072-939c-11a2b5c0205f" ContentHash="yj9vlEHALUiI5m5nPcE-mg" CvType="AnyWordGroup" DesignTimeRectangle="2155, 631, 356, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='11' tag='TD' /&gt;" Guid="d51e91b8-7f85-4e7d-909c-8f655bf9bb30" InformativeScreenshot="a5086c7ccdb290eb1b2e49c0f1d429a3.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/cPvMH7aJtE2kr8c65zdZVw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1945, 631, 210, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname=' amtl. Kennzeichen ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='amtl. Kennzeichen' /&gt;" Guid="f4bbe6ac-ee59-4009-b467-7ceb9a751c16" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[in_Kennzeichen = kennZeichen_HIS]" sap:VirtualizedContainerService.HintSize="452.8,580.8" sap2010:WorkflowViewState.IdRef="If_1">
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[in_Kennzeichen +&quot; = &quot;+ kennZeichen_HIS]" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_2">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Boolean">[vorgang_isValid]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RetryScope.ActivityBody>
+              <ui:RetryScope.Condition>
+                <ActivityFunc x:TypeArguments="x:Boolean">
+                  <ui:CheckTrue ErrorMessage="{x:Null}" DisplayName="Check True" Expression="[vorgang_isValid]" sap:VirtualizedContainerService.HintSize="462,25" sap2010:WorkflowViewState.IdRef="CheckTrue_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CheckTrue>
+                </ActivityFunc>
+              </ui:RetryScope.Condition>
+            </ui:RetryScope>
+            <uix:NGetText DisplayName="Get Text 'Fahrgestellnummer'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,142.4" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" TextString="[out_FIN]" Version="V5">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" CVScreenId="a0e811dc-685f-4a83-b339-bb3b1dc9798d" ContentHash="v3b7VhA_QUWe5kzcFiUADw" CvType="AnyWordGroup" DesignTimeRectangle="2267, 509, 233, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='9' tag='TD' /&gt;" Guid="d726aaab-4b14-4bed-a3b6-7b3d6a92c62a" InformativeScreenshot="2cd1fa3ec3e3616bf30f64c003da083d.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/mgP7lK604UiV-4nTuDM4Gw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="2091, 509, 176, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname=' Fahrgestellnummer ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Fahrgestellnummer' /&gt;" Guid="95e32b38-7915-4ea3-ab9c-7268b0dc7eb3" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'schließen'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,184.8" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" ContentHash="tp1qUEJWG06ROg8neJJhXg" DesignTimeRectangle="2243, 1005, 225, 38" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-label='Close the details.' tag='BUTTON' type='' class='c-btn js-modal-close js-modal-autofocus' aaname=' schließen ' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='SCHLIESSEN' /&gt;" Guid="2a5a6e62-fb72-49a5-a697-7fe02ffcd596" InformativeScreenshot="a75318a60c5704b5ef970365a5eca104.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/1yrP2QaL5UyP9e2yg7533A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="2315, 1013, 80, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' schließen ' parentid='pagedetail' tag='SPAN' type='' class='c-btn__text' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='SCHLIESSEN' /&gt;" Guid="c330bb8f-4057-4e29-87ce-cd6151f64260" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, -8, 2576, 1408" BrowserType="Chrome" ContentHash="W7Y0jv08WUOLkIj8sDVEPg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVDhPndNrS5NxGMfxH1GpJaaLepCUPeihaWGzkEqi0mlpprbUdtDpDurY3Gybh3uzdvCAp2GtrCCIqLf5jZsbXQ6J8A18uP7X9/pLzgQaSaGxBeRaQm4DeTNo4h2azCJ/DgUKKLSGZjZQeBNFtlB0B8WKSK/mKSOLFuKpRPIoWIlsW4iG4vwfkjsG2UJ6OYeGYidHNBDhEBk2kbdoJGnt5M3fO1lBvvdoqgJRfxi9MJEoZ18nqB83qBtPU+fL0ODP0hDMcSGYp356FVt4g+rQ6tFJ9HwG9c2ivjBXfBkc+S88ye7TVfhG7/p3nHu/6d/+iWPzB/3FXzQbJetJ5iRmHfVOc92XpjWyRuvcBvdSu9hTu7TMb9GS2KEpvIY9XeJB7it3Mp+5aZRoNj5xNVG0JlFPkGveJdqi63Qkt+lI7dKe3KElvol9oUjT7Crtyx+4my5xe/kjt4wSbSv73EjtWYtVtx91BzjTN8vlsSS20QSX3Is0uBaxeZa5OJGhMZSjcbqALZDFFsxzfipbrqOnk6jLz6meEDUDEaoHo5wbjlE1HKfKOU/1aJJa9xK1HoMaj0GV1+C0mfcgsR5PcIDIEUC9IfTMXGy5jgYPElfciZlYj7wci5h1DhP/49jU6eHkyALSQxfqdJ8c0f0xLKRiErOOI3gUOTz78gf8A/WY30ydx/PaAAAAAElFTkSuQmCC" InformativeScreenshot="80da3a00f2f16416eaadeb92fc14439a.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/-XxRaGMSYki3Mo2KACEJ6Q" Selector="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" Url="https://his.vwfs.com/selectcompany" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

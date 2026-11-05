@@ -1,0 +1,6 @@
+{
+  "Name": "LR_Verknuepfung_loesen",
+  "ProjectType": "Process",
+  "Description": "Die Verknüpfung Kunde-Fahrzeug nach der Leasingsende lösen.",
+  "MainFile": "Main.xaml"
+}

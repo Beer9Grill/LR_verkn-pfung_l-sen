@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Leasing Vertrag Nr. P90…",
+  "Type": "Element",
+  "Id": "Ksl7GXuA6Ey6vUjHbb3Xqg",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/Ksl7GXuA6Ey6vUjHbb3Xqg",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/-XxRaGMSYki3Mo2KACEJ6Q",
+  "Created": "2026-07-20T12:02:59.120543Z",
+  "Updated": "2026-07-20T12:02:59.120543Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

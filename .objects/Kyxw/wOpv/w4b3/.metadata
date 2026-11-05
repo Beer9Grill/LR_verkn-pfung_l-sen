@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome LeasingRücknahme Online",
+  "Type": "Screen",
+  "Id": "w4b3gNOV7EC_3lAwD7b_uw",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/w4b3gNOV7EC_3lAwD7b_uw",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/wOpvHgSBNEG3Yu4S5-0HEQ",
+  "Created": "2026-06-19T12:50:24.2008328Z",
+  "Updated": "2026-06-19T12:50:24.2008328Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

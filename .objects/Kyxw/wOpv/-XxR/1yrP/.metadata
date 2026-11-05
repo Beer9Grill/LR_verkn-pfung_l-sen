@@ -1,0 +1,14 @@
+﻿{
+  "Name": "schließen",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "1yrP2QaL5UyP9e2yg7533A",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/1yrP2QaL5UyP9e2yg7533A",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/-XxRaGMSYki3Mo2KACEJ6Q",
+  "Created": "2026-07-21T13:35:03.5731559Z",
+  "Updated": "2026-07-21T13:35:03.5731559Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

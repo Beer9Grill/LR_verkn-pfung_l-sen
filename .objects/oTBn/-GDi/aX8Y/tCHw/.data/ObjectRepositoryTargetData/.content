@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4wtAxn1cc0OaEVueQSM1kQ" Reference="lb_UAc5--UusZP3tb2HM1Q/tCHwu-BbYkeaLmW8YSFPkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="35, 125, 835, 17" ElementType="ListItem" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='50' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;ctrl role='list item' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="c6f90294-1c96-4144-a602-2a017b6564ad" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='35084  CROSS Service - 35084 KD (35084 MH) Autohaus Best GmbH' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="09bbb867c3a3f00663dcfd258a4d44e4.jpg" xmlns="">0SebSHAIaVkig9z6_1oEWCg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

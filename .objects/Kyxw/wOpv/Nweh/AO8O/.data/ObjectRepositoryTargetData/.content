@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0kVVPFAIhUOyZDX4XthD-A" Reference="lb_UAc5--UusZP3tb2HM1Q/AO8O4QbpDUWx-ZkBImk0sQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Search" DesignTimeRectangle="1458, 857, 126, 27" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='Overdue_Popup_CancelButton' tag='BUTTON' visibleinnertext=' Abbrechen' /&gt;" Guid="a781ec2c-11ec-42ba-b81d-337d1a0c5ccd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LeasingRücknahme Online*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="154e4c6ade073a214b4279e1e12c0fed.jpg" xmlns="">0XP2DA2RiMU6rqssFsbX1mA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

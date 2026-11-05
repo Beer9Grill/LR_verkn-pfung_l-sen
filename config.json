@@ -1,0 +1,29 @@
+﻿{
+	"GRPAuth":"GRP_Credentials",
+	"GRP_TOTP":"GRP_TOTP",
+	"CrossAuth": "Cross_credentials",
+  "Betriebe": [
+		 "DEU35084C",
+        "DEU25306A",
+        "DEU56979C",
+        "DEU34681V",
+        "DEU44717V",
+	  "DEU28731N",
+        "DEU63037V",
+	  "DEU21327A",
+	  "DEU21301C",
+	  "DEU35122V",
+	  "DEU44261V",
+	  "DEU44245V",
+	  "DEU87104S",
+	  "DEU79731V",
+	  "DEU22151A"
+	  
+    ],
+	"Altgruppen":[
+		"BEST",
+		"GuS",
+		"GuK",
+		"Marnet"
+	]
+}

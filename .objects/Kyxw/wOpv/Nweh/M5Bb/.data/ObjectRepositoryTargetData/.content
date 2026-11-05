@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kH5gfBttn0WtykM6_25JZQ" Reference="lb_UAc5--UusZP3tb2HM1Q/M5BbLSuX0kuGXHZvuJq04w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="lro.vwfs.com/Home/Start" DesignTimeRectangle="105, 266, 144, 35" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='MainReturnProtocol' tag='A' aaname='Rückgabe Leasing' /&gt;" Guid="54ed9daf-a204-4193-97fa-b334e5b3ceb2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='LeasingRücknahme Online*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="45d26719f4cbecefa4d92ac5d94cc6d2.jpg" xmlns="">02KqvWy9BA0Gi2WLtLQVvbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

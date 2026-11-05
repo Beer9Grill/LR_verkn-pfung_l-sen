@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="spokSXEZQUyYv7O4VVf1BA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="8, 3, 564, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl role='title bar' text='Hinweis Liste' /&gt;" Guid="53f74e1c-6109-41a3-b1e5-4f0de80a28d3" ScopeSelectorArgument="&lt;wnd app='nge.exe' cls='#32770' title='Hinweis Liste' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a9f06dd40aa94b6dc1054ba2c712e8df.jpg" xmlns="">0cIp0BonbVkeL9coOz7JNTw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

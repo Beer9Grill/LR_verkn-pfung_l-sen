@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zFn66Z7HokOiG_69ruMXJg" Reference="lb_UAc5--UusZP3tb2HM1Q/psJft7XCzk2x8_ynOoM8Bg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="35, 125, 835, 17" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' /&gt;&lt;wnd ctrlid='50' /&gt;&lt;ctrl role='list item' /&gt;" Guid="be53e23b-1974-4cd5-bc37-50b6325502ee" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='*CROSS Service**' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e8ed607878ddebfb2752e4362cdc99e7.jpg" xmlns="">0lA-YTq_5Qk2TDAK4IQsXbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Diese Richtlinie muss v…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YiNj80SKTkuk57XJjhzjlA",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/YiNj80SKTkuk57XJjhzjlA",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/NwehpICxa0ezMPl-nHb77A",
+  "Created": "2026-08-03T10:38:06.073255Z",
+  "Updated": "2026-08-03T10:38:06.073255Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

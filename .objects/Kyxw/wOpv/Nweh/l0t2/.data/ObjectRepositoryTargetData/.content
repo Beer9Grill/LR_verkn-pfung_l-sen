@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VDP7qj_QKke08ezURsyepA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="partner.vwfs.com/Private/UIController/VAPPrivatePortalFC.aspx" CVScreenId="67026f37-ce14-4c21-b9f4-4ebd33e5794b" CvElementArea="1716, 1140, 90, 33" CvTextArea="1746, 1149, 51, 15" CvTextArgument="Weiter" CvType="Button" DesignTimeRectangle="1749, 1148, 47, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='MainContent' tag='FRAME' /&gt;&lt;webctrl class='btnText' parentid='cuitAcceptPolicy' tag='SPAN' /&gt;" Guid="ed97bec9-52df-4229-aebe-a65c1b39cb52" ScopeSelectorArgument="&lt;html app='chrome.exe' title='VWFSAG - PartnerSysteme 3.5.26194.1' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="627, 1124, 1325, 64" FuzzySelectorArgument="&lt;webctrl id='MainContent' tag='FRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl class='modal-footer' tag='DIV' type='' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Weiter  Abmelden' /&gt;" Guid="b9ce114d-e395-4874-979f-81a4632f4278" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2d6589ab11eb7b2eac3d6ec77efd7f95.jpg" xmlns="">0sxmTxBaqPEiMiXPHIhifxA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

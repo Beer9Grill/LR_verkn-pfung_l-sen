@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome H.I.S.",
+  "Type": "Screen",
+  "Id": "-XxRaGMSYki3Mo2KACEJ6Q",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/-XxRaGMSYki3Mo2KACEJ6Q",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/wOpvHgSBNEG3Yu4S5-0HEQ",
+  "Created": "2026-07-20T11:56:55.7197551Z",
+  "Updated": "2026-07-20T11:56:55.7197551Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

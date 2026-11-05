@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Weiter",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "l0t2TLLcXUi1ipnalj7gWg",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/l0t2TLLcXUi1ipnalj7gWg",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/NwehpICxa0ezMPl-nHb77A",
+  "Created": "2026-08-03T10:39:09.4666191Z",
+  "Updated": "2026-08-03T10:39:09.4666191Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

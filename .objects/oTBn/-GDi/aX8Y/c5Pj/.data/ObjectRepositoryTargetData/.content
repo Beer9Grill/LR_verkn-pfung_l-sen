@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NZZkBHmpFUiM6vShiS1n3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="70, 57, 245, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='65535' title='Der GW-Modellcode * muss GW-gültig gekennzeichnet sein.' /&gt;" Guid="e3880950-766b-47bc-b9cf-093f17e9c817" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fehler' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9de049d133fc6ae4eb16962a31c87eb5.jpg" xmlns="">0SF5nvuYPC0KDt5yHhgQOSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Amtl.Kennz.(2)",
+  "Type": "Element",
+  "Id": "jQpyFTlSbkKB_E0Eou_c4A",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/jQpyFTlSbkKB_E0Eou_c4A",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-06-25T13:01:40.7429393Z",
+  "Updated": "2026-06-25T13:01:40.7429393Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

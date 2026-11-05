@@ -1,0 +1,14 @@
+﻿{
+  "Name": "M-NO1725E",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "fA1_ll1u-0KqATMELjT3Sw",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/fA1_ll1u-0KqATMELjT3Sw",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/-XxRaGMSYki3Mo2KACEJ6Q",
+  "Created": "2026-07-21T13:44:57.7461881Z",
+  "Updated": "2026-07-21T13:44:57.7461881Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

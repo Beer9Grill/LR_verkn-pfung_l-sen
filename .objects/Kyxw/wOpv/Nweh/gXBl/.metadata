@@ -1,0 +1,14 @@
+﻿{
+  "Name": "E-Mail bestätigen",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "gXBlyR2xW0GmmrLqU4rWiA",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/gXBlyR2xW0GmmrLqU4rWiA",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/NwehpICxa0ezMPl-nHb77A",
+  "Created": "2026-09-16T12:11:05.8752893Z",
+  "Updated": "2026-09-16T12:11:05.8752893Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

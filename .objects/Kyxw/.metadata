@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome VWFSAG - PartnerSysteme",
+  "Type": "App",
+  "Id": "Kyxwh6LXI0Gurli3i6kxhQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/Kyxwh6LXI0Gurli3i6kxhQ",
+  "Created": "2026-06-19T12:11:51.2009191Z",
+  "Updated": "2026-06-19T12:11:51.2009191Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Diesel",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "NW2FnFWpY0awx0AT9wpQSQ",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/NW2FnFWpY0awx0AT9wpQSQ",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-09-21T12:49:12.8803993Z",
+  "Updated": "2026-09-21T12:49:12.8803993Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QZUSi3vEykyoUPIRMUURHA" Reference="lb_UAc5--UusZP3tb2HM1Q/8YhF5nmSTU2fydIrYrW0pg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="80, 146, 882, 363" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl role='dialog' /&gt;" Guid="8776caad-ae4a-4c79-9478-43ff2e5c9a10" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='*CROSS Service*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5c25e956d258d36853c3f888cbeb73d4.jpg" xmlns="">0l4YPc24E60uAnqTe8mFBig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

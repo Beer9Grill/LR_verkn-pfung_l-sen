@@ -1,0 +1,13 @@
+﻿{
+  "Name": "E-Mail-Adresse validier…",
+  "Type": "Element",
+  "Id": "lNeCQvHEok2IPFgn2jvrMw",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/lNeCQvHEok2IPFgn2jvrMw",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/NwehpICxa0ezMPl-nHb77A",
+  "Created": "2026-09-16T12:10:55.1421733Z",
+  "Updated": "2026-09-16T12:10:55.1421733Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

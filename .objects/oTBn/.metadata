@@ -1,0 +1,12 @@
+﻿{
+  "Name": "50792  CROSS Service",
+  "Type": "App",
+  "Id": "oTBnsu1lvkSj_S37Bm0LnA",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/oTBnsu1lvkSj_S37Bm0LnA",
+  "Created": "2026-06-22T14:43:54.1360366Z",
+  "Updated": "2026-06-22T14:43:54.1360366Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

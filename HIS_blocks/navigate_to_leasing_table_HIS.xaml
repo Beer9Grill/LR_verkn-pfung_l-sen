@@ -1,0 +1,188 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="navigate_to_leasing_table_HIS" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="navigate_to_leasing_table_HIS_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="navigate_to_leasing_table_HIS" sap:VirtualizedContainerService.HintSize="1174,1043.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome H.I.S." HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="451.2,1020" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="True" ScopeGuid="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,826.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Finanzierung  Leasing'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="his.vwfs.com/selectcompany" ContentHash="ao5Si2weJ0e4jCrGYwkwLQ" DesignTimeRectangle="633, 201, 137, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname=' Finanzierung / Leasing ' class='c-site-nav__link-label' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='FINANZIERUNG / LEASING' /&gt;" Guid="521f621f-3921-4b14-af3a-4d27ed744407" InformativeScreenshot="b001d15a03d1250748db3972df228034.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/wnXPvl90e0C9daRBGsCWBw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="633, 201, 157, 16" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Finanzierung / Leasing ' tag='BUTTON' type='' class='c-site-nav__link js-dropdown__button' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='FINANZIERUNG / LEASING' /&gt;" Guid="b0f6e730-9701-4f3a-9f55-2f87435bbeaf" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Leasing'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="his.vwfs.com/selectcompany" ContentHash="wxNG1o2dtUazqwIo-LSS2Q" DesignTimeRectangle="649, 282, 280, 32" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Leasing ' class='c-site-nav-dropdown__link' tag='A' /&gt;" Guid="576844dc-6edb-4610-84cf-3c2d8c38564d" InformativeScreenshot="a59d9b93e4e253b60697e9b9e2a7352b.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/l_sZj4yZgk6KDmrAsYtzlA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filter'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" ContentHash="VjEJlOHex0SKym3tYxzcPQ" DesignTimeRectangle="346, 350, 46, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aria-role='heading' tableRow='1' tag='SPAN' /&gt;" Guid="630c2a24-54b4-4b7a-8464-8eb82fdfb4ff" InformativeScreenshot="fea9111f295e91fe299e01fe707278ac.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/ePm4ZVoPR0a7QIkcLOwlaQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NSelectItem DisplayName="Select Item 'SELECT filtercolumnssel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185.6" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="amtl. Kennzeichen" ScopeIdentifier="cccb60b7-b97d-4ae9-926e-c0bc02aac3a7" Version="V5">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="27">
+                  <x:String></x:String>
+                  <x:String>Aktionskennzeichen</x:String>
+                  <x:String>amtl. Kennzeichen</x:String>
+                  <x:String>DAT-HdlEW</x:String>
+                  <x:String>Dienstleistungen</x:String>
+                  <x:String>Dienstleistungsgruppen</x:String>
+                  <x:String>DL</x:String>
+                  <x:String>Fahrgestellnummer</x:String>
+                  <x:String>Großabnehmer</x:String>
+                  <x:String>GWA</x:String>
+                  <x:String>Kunde</x:String>
+                  <x:String>Leasingbestelldatum</x:String>
+                  <x:String>letzte Rate / Vertragsende</x:String>
+                  <x:String>Modellbezeichnung</x:String>
+                  <x:String>Modellschlüssel</x:String>
+                  <x:String>NW / GW</x:String>
+                  <x:String>Rate *</x:String>
+                  <x:String>Restrate / Restwert *</x:String>
+                  <x:String>Restwertmodell / -option</x:String>
+                  <x:String>Service-Management-Vertrag</x:String>
+                  <x:String>Verk.-Nr.</x:String>
+                  <x:String>Vertrag</x:String>
+                  <x:String>Vertragsart</x:String>
+                  <x:String>Vertragsbeginn</x:String>
+                  <x:String>Vertragsherkunft</x:String>
+                  <x:String>ZBT II</x:String>
+                  <x:String>Zus. Prod.</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="his.vwfs.com/leasing" ContentHash="qTjy2Uy5VUGrHA9KEhGF_w" DesignTimeRectangle="344, 444, 235, 30" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='filtercolumnssel' tag='SELECT' /&gt;" Guid="d9a27e1c-b3dc-4926-80be-4865e36a6640" InformativeScreenshot="ee67079dc39092c96a0c668c5d39cc86.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/iKXPKM_CKEi3ftDcnHknEA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, -8, 2576, 1408" BrowserType="Chrome" ContentHash="W7Y0jv08WUOLkIj8sDVEPg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVDhPndNrS5NxGMfxH1GpJaaLepCUPeihaWGzkEqi0mlpprbUdtDpDurY3Gybh3uzdvCAp2GtrCCIqLf5jZsbXQ6J8A18uP7X9/pLzgQaSaGxBeRaQm4DeTNo4h2azCJ/DgUKKLSGZjZQeBNFtlB0B8WKSK/mKSOLFuKpRPIoWIlsW4iG4vwfkjsG2UJ6OYeGYidHNBDhEBk2kbdoJGnt5M3fO1lBvvdoqgJRfxi9MJEoZ18nqB83qBtPU+fL0ODP0hDMcSGYp356FVt4g+rQ6tFJ9HwG9c2ivjBXfBkc+S88ye7TVfhG7/p3nHu/6d/+iWPzB/3FXzQbJetJ5iRmHfVOc92XpjWyRuvcBvdSu9hTu7TMb9GS2KEpvIY9XeJB7it3Mp+5aZRoNj5xNVG0JlFPkGveJdqi63Qkt+lI7dKe3KElvol9oUjT7Crtyx+4my5xe/kjt4wSbSv73EjtWYtVtx91BzjTN8vlsSS20QSX3Is0uBaxeZa5OJGhMZSjcbqALZDFFsxzfipbrqOnk6jLz6meEDUDEaoHo5wbjlE1HKfKOU/1aJJa9xK1HoMaj0GV1+C0mfcgsR5PcIDIEUC9IfTMXGy5jgYPElfciZlYj7wci5h1DhP/49jU6eHkyALSQxfqdJ8c0f0xLKRiErOOI3gUOTz78gf8A/WY30ydx/PaAAAAAElFTkSuQmCC" InformativeScreenshot="80da3a00f2f16416eaadeb92fc14439a.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/-XxRaGMSYki3Mo2KACEJ6Q" Selector="&lt;html app='chrome.exe' title='H.I.S.' /&gt;" Url="https://his.vwfs.com/selectcompany" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
