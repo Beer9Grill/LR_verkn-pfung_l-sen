@@ -1,0 +1,14 @@
+﻿{
+  "Name": "S&chließen(2)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "_5tHEqfvgEqkvOMwv3-Vpw",
+  "Reference": "lb_UAc5--UusZP3tb2HM1Q/_5tHEqfvgEqkvOMwv3-Vpw",
+  "ParentRef": "lb_UAc5--UusZP3tb2HM1Q/aX8YGUc9ikSNwIhaw01lrw",
+  "Created": "2026-11-06T09:59:33.3155292Z",
+  "Updated": "2026-11-06T09:59:33.3155292Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

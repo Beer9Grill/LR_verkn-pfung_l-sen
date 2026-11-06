@@ -98,19 +98,19 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="close_all_windows_inCross" sap:VirtualizedContainerService.HintSize="951,2237" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="close_all_windows_inCross" sap:VirtualizedContainerService.HintSize="1018,2412" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="50792  CROSS Service" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,2214" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e7df28df-a70b-405d-9f68-536da7983654" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="50792  CROSS Service" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,2389" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="e7df28df-a70b-405d-9f68-536da7983654" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="558,1967" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="558,2142" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="dialog_sichtbar" />
             </Sequence.Variables>
@@ -127,23 +127,24 @@
                 <InArgument x:TypeArguments="x:Boolean">True</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[dialog_sichtbar]" DisplayName="While" sap:VirtualizedContainerService.HintSize="524,1732" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="524,1907" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1" MaxIterations="5">
               <ui:InterruptibleWhile.Body>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="522,1610" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="522,1785" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NCheckState DisplayName="Check App State 'Kriterien Fahrzeug'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,1550" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="e7df28df-a70b-405d-9f68-536da7983654" Timeout="0.5" Version="V5">
+                  <uix:NCheckState DisplayName="Check App State 'Kriterien Fahrzeug'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,1725" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="e7df28df-a70b-405d-9f68-536da7983654" Timeout="0.5" Version="V5">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,988" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,1163" sap2010:WorkflowViewState.IdRef="Sequence_3">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="e7df28df-a70b-405d-9f68-536da7983654" Shortcuts="[d(hk)][k(Esc)][u(hk)]" Version="V5" />
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Window is closing&quot;]" />
+                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="[UiPath.UIAutomationNext.Enums.NClickMode.Single]" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,257" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="e7df28df-a70b-405d-9f68-536da7983654" Shortcuts="[d(hk)][k(Esc)][u(hk)]" Version="V5" />
                         <uix:NCheckState DisplayName="Check App State 'Wollen Sie speichern'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,671" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="e7df28df-a70b-405d-9f68-536da7983654" Timeout="0.5" Version="V5">
                           <uix:NCheckState.IfExists>
                             <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_6">
@@ -197,6 +198,9 @@
                   </uix:NCheckState>
                 </Sequence>
               </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="dialog_sichtbar" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
+              </ui:InterruptibleWhile.Condition>
             </ui:InterruptibleWhile>
           </Sequence>
         </ActivityAction>

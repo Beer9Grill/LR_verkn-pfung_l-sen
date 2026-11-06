@@ -66,6 +66,10 @@
       <x:String>UiPath.MicrosoftOffice365.Activities.Files.Contracts</x:String>
       <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
       <x:String>UiPath.Activities.System.Text</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.Collections.Specialized</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -137,21 +141,23 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>System.Linq.Parallel</AssemblyReference>
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="verknupfung_loesen" sap:VirtualizedContainerService.HintSize="1114,9274" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="verknupfung_loesen" sap:VirtualizedContainerService.HintSize="1182,9856" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="50792  CROSS Service" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,9251" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="f7b46621-228e-482b-b4ca-533959c06688" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="50792  CROSS Service" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="620,9833" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Never]" ScopeGuid="f7b46621-228e-482b-b4ca-533959c06688" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="618,9004" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="618,9586" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -219,11 +225,12 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <uix:NCheckState DisplayName="Fahrzeig ist in Instanz angemeldet" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="584,7602" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="f7b46621-228e-482b-b4ca-533959c06688" Timeout="1" Version="V5">
+            <uix:NCheckState DisplayName="Fahrzeig ist in Instanz angemeldet" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="584,8184" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="f7b46621-228e-482b-b4ca-533959c06688" Timeout="1" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="582,7031" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="582,7613" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="fahrzeugList" />
+                    <Variable x:TypeArguments="x:String" Name="avemo_betriebe" />
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -237,16 +244,21 @@
                       <uix:TargetAnchorable ContentHash="4wtAxn1cc0OaEVueQSM1kQ" DesignTimeRectangle="35, 125, 835, 17" ElementType="ListItem" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlid='50' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;&lt;ctrl role='list item' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="c6f90294-1c96-4144-a602-2a017b6564ad" InformativeScreenshot="09bbb867c3a3f00663dcfd258a4d44e4.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/tCHwu-BbYkeaLmW8YSFPkg" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='35084  CROSS Service - 35084 KD (35084 MH) Autohaus Best GmbH' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
                     </uix:NGetText.Target>
                   </uix:NGetText>
-                  <If Condition="[fahrzeugList.contains(&quot;Migrationskunde&quot;)]" sap:VirtualizedContainerService.HintSize="548,578" sap2010:WorkflowViewState.IdRef="If_2">
+                  <If Condition="[fahrzeugList.contains(&quot;Migrationskunde&quot;)]" sap:VirtualizedContainerService.HintSize="548,772" sap2010:WorkflowViewState.IdRef="If_2">
                     <If.Then>
-                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,349" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,543" sap2010:WorkflowViewState.IdRef="Sequence_36">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[in_FIN +&quot; Fahrzeug ist bereits auf Migrationskundeüberschrieben&quot;]" />
-                        <Throw Exception="[New BusinessRuleException(&quot;Fahrzeug &quot; +in_FIN+ &quot;wurde bereits umgeschrieben&quot;)]" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Throw_3" />
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'S&amp;chließen(3)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_39" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f7b46621-228e-482b-b4ca-533959c06688" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable ContentHash="-n8yFjogo06rJNtDNe_Q9Q" DesignTimeRectangle="33, 413, 85, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='102' title='S&amp;amp;chließen' /&gt;" Guid="88f358be-4ebf-4e01-a3f4-a41610635484" InformativeScreenshot="b28c15af8d2ead982b92443b88dd3ddf.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/5cgWgLxKTEOwoVX2MjsONw" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='*CROSS Service *' /&gt;&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <Throw Exception="[New BusinessRuleException(&quot;Fahrzeug &quot; +in_FIN+ &quot; wurde bereits umgeschrieben&quot;)]" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Throw_3" />
                       </Sequence>
                     </If.Then>
                     <If.Else>
@@ -259,7 +271,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <Sequence sap:VirtualizedContainerService.HintSize="548,6075" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <Sequence sap:VirtualizedContainerService.HintSize="548,6463" sap2010:WorkflowViewState.IdRef="Sequence_12">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -318,7 +330,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NCheckState DisplayName="Test, ob das Auto wieder eingekauft wurde" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="514,764" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="f7b46621-228e-482b-b4ca-533959c06688" Timeout="5" Version="V5">
+                    <uix:NCheckState DisplayName="Test, ob das Auto wieder eingekauft wurde" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="514,1152" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="f7b46621-228e-482b-b4ca-533959c06688" Timeout="5" Version="V5">
                       <uix:NCheckState.IfExists>
                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_34">
                           <sap:WorkflowViewStateService.ViewState>
@@ -334,12 +346,22 @@
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Auto Eingekauft -&gt; gehe weiter" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                        <Sequence DisplayName="Auto Eingekauft -&gt; gehe weiter" sap:VirtualizedContainerService.HintSize="450,562" sap2010:WorkflowViewState.IdRef="Sequence_35">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click close Fahrzeug Akt" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_37" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f7b46621-228e-482b-b4ca-533959c06688" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable ContentHash="bhbggZnRfUqVSVHpAyqsdg" DesignTimeRectangle="98, 629, 72, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='2' title='&amp;amp;Abbrechen' /&gt;" Guid="5f85e1dc-68fd-4f74-a5c3-360288f21b2e" InformativeScreenshot="d3fb039dff0f42230c461fca3d5d7d64.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/xY1gEP3Kf0C7Pd8SB22q3w" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='#32770' title='Fahrzeug*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Close Liste von Fahrzeugen" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_38" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f7b46621-228e-482b-b4ca-533959c06688" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable ContentHash="SkgsmjriPEmV65fl2feULQ" DesignTimeRectangle="93, 473, 85, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='102' title='S&amp;amp;chließen' /&gt;" Guid="769f7414-03e4-4860-9e97-35ea2c37c5e5" InformativeScreenshot="b4e294e8e436881e13795ac439f32e50.jpg" Reference="lb_UAc5--UusZP3tb2HM1Q/_5tHEqfvgEqkvOMwv3-Vpw" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='*CROSS Service*' /&gt;&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
                           <Throw Exception="[new BusinessRuleException(&quot;Das Fahrzeug darf nicht gelöst werden. Wieder eingekauft&quot;)]" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Throw_1" />
                         </Sequence>
                       </uix:NCheckState.IfNotExists>

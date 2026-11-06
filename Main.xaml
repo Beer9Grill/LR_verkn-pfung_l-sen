@@ -161,7 +161,7 @@
       <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1629,10409" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1008,10232" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ss:SecureString" Name="Cross_pass" />
       <Variable x:TypeArguments="upr:ILocalResource" Name="ExcelFile" />
@@ -172,12 +172,12 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <c:Close_Chrome_Smoothly DisplayName="Close Chrome Smoothly" sap:VirtualizedContainerService.HintSize="622,57" sap2010:WorkflowViewState.IdRef="Close_Chrome_Smoothly_10" />
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="622,10329" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="622,10152" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Variables>
         <Variable x:TypeArguments="njl:JArray" Name="failed_list" />
       </TryCatch.Variables>
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="620,9370" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="620,9193" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <Sequence.Variables>
             <Variable x:TypeArguments="njl:JToken" Name="Betriebe" />
             <Variable x:TypeArguments="x:String" Name="GRP_username" />
@@ -228,13 +228,13 @@
               </scg:List>
             </ui:MultipleAssign.AssignOperations>
           </ui:MultipleAssign>
-          <ui:ForEach x:TypeArguments="njl:JToken" CurrentIndex="{x:Null}" DisplayName="For Each Kontext(FS) in GRP" sap:VirtualizedContainerService.HintSize="586,7643" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Betriebe]">
+          <ui:ForEach x:TypeArguments="njl:JToken" CurrentIndex="{x:Null}" DisplayName="For Each Kontext(FS) in GRP" sap:VirtualizedContainerService.HintSize="586,7466" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Betriebe]">
             <ui:ForEach.Body>
               <ActivityAction x:TypeArguments="njl:JToken">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="njl:JToken" Name="curBetrieb" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="584,7512" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="584,7335" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="njl:JArray" Name="abg_protokolle" />
                     <Variable x:TypeArguments="x:String" Name="fileName" />
@@ -490,13 +490,13 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
-                  <ui:ForEach x:TypeArguments="njl:JToken" CurrentIndex="{x:Null}" DisplayName="For Each Cross Instanz" sap:VirtualizedContainerService.HintSize="550,4196" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[Altgruppen]">
+                  <ui:ForEach x:TypeArguments="njl:JToken" CurrentIndex="{x:Null}" DisplayName="For Each Cross Instanz" sap:VirtualizedContainerService.HintSize="550,4019" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[Altgruppen]">
                     <ui:ForEach.Body>
                       <ActivityAction x:TypeArguments="njl:JToken">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="njl:JToken" Name="curInstanz" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="548,4065" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="548,3888" sap2010:WorkflowViewState.IdRef="Sequence_7">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -546,13 +546,13 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:CommentOut>
-                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[CSV_range]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="514,3503" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                          <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[CSV_range]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="514,3326" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                             <ui:ForEachRow.Body>
                               <ActivityAction x:TypeArguments="sd:DataRow">
                                 <ActivityAction.Argument>
                                   <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,3321" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,3144" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="FIN" />
                                     <Variable x:TypeArguments="x:String" Name="haendler" />
@@ -623,7 +623,7 @@
                                       </Sequence>
                                     </If.Else>
                                   </If>
-                                  <TryCatch DisplayName="if Verknupfung failed" sap:VirtualizedContainerService.HintSize="478,2227" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                                  <TryCatch DisplayName="if Verknupfung failed" sap:VirtualizedContainerService.HintSize="478,2050" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                                     <TryCatch.Try>
                                       <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_26">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -674,19 +674,14 @@
                                           <ActivityAction.Argument>
                                             <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
                                           </ActivityAction.Argument>
-                                          <Sequence DisplayName="Fzg. ist von uns gekauft - darf nicht gelöst werden" sap:VirtualizedContainerService.HintSize="450,460" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                          <Sequence DisplayName="Fzg. ist von uns gekauft - darf nicht gelöst werden" sap:VirtualizedContainerService.HintSize="450,283" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Trace" Message="[&quot;Business Exception &quot;+exception.Message]" />
-                                            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="close_all_windows_inCross - Invoke Workflow File (close_all_windows_inCross.xaml)" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="close_all_windows_inCross.xaml">
-                                              <ui:InvokeWorkflowFile.Arguments>
-                                                <scg:Dictionary x:TypeArguments="x:String, Argument" />
-                                              </ui:InvokeWorkflowFile.Arguments>
-                                            </ui:InvokeWorkflowFile>
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Fatal" Message="[&quot;Business Exception &quot;+exception.Message]" />
                                             <ui:Continue sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Continue_5" />
                                           </Sequence>
                                         </ActivityAction>

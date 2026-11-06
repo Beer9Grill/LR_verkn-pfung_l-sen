@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SkgsmjriPEmV65fl2feULQ" Reference="lb_UAc5--UusZP3tb2HM1Q/_5tHEqfvgEqkvOMwv3-Vpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="93, 473, 85, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='102' title='S&amp;amp;chließen' /&gt;" Guid="769f7414-03e4-4860-9e97-35ea2c37c5e5" ScopeSelectorArgument="&lt;wnd app='twe.exe' cls='AfxMDIFrame140u' title='*CROSS Service*' /&gt;&lt;wnd cls='AfxFrameOrView140u' title='Liste von Fahrzeugen' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b4e294e8e436881e13795ac439f32e50.jpg" xmlns="">0qWcy4EfnRkyHf9cnYJrn1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
